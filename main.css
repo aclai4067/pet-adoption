@@ -1,3 +1,18 @@
 body{
     background-color: cadetblue;
+
+}
+
+.buttons{
+    border-radius: 10px;
+    font-size: 1em;
+    height: 40px;
+    margin: 20px;
+    width: 75px;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+
 }
