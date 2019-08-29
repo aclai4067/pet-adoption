@@ -1,5 +1,6 @@
 body{
     background-color: cadetblue;
+
 }
 
 .buttons{
@@ -13,4 +14,5 @@ body{
 .buttonDiv{
     display: flex;
     justify-content: center;
+
 }

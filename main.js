@@ -1,3 +1,4 @@
+
 console.log("get some pets!");
 
 const critters = [
@@ -44,3 +45,4 @@ const critters = [
         typeOfPet: 'Dino'
     }
 ];
+
