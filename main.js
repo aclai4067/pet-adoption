@@ -1,6 +1,11 @@
 
 console.log("get some pets!");
 
+const printToDom = (divId, textToPrint) => {
+    const selectedDiv = document.getElementById(divId);
+    selectedDiv.innerHTML = textToPrint;
+};
+
 const critters = [
     {
         image: 'https://live.staticflickr.com/155/354864230_a8fe1fe864_z.jpg',
@@ -46,3 +51,21 @@ const critters = [
     }
 ];
 
+const printPets = (petArr) => {
+    let petText = '';
+    for (let i = 0; i < petArr.length; i++) {
+        const pet = petArr[i];
+        petText += `
+            <div class="petCards ${pet.typeOfPet}">
+            <header><h3>${pet.name}</h3></header>
+            <div><img src="${pet.image}" alt="${pet.name} the ${pet.typeOfPet}" />
+            <p>Color: ${pet.color}</p>
+            <p>Special Skill: ${pet.specialSkill}</p></div>
+            <footer><p>${pet.typeOfPet}</p></footer>
+            </div>
+        `
+    };
+    printToDom('animalCards', petText);
+};
+
+printPets(critters);
