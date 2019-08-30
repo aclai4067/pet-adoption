@@ -1,5 +1,19 @@
+#allButton{
+    border: 2px solid rgb(105, 105, 105);
+    background-color: rgb(218, 214, 214);
+    color: rgb(105, 105, 105);
+}
+
+#animalCards{  /* div holding all cards */
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 body{
-    background-color: cadetblue;
+    background-color: rgb(95, 158, 160, 0.8);
 }
 
 .buttons{
@@ -13,4 +27,98 @@ body{
 .buttonDiv{
     display: flex;
     justify-content: center;
+}
+
+.cardBody p{
+    color: darkslategrey;
+    font-size: .9em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+#catButton{
+    border: 2px solid rgb(22, 130, 231);
+    background-color: rgb(199, 212, 224);
+    color: rgb(22, 130, 231);
+}
+
+.Cat footer{
+    background-color: rgb(22, 130, 231, 0.2);
+    border-top: 2px solid rgb(22, 130, 231);
+    color:rgb(22, 130, 231);
+    margin-top: 1em;
+}
+
+#dinoButton{
+    border: 2px solid rgb(231, 158, 22);
+    background-color: rgb(231, 221, 201);
+    color: rgb(231, 158, 22);
+}
+
+.Dino footer{
+    background-color: rgb(231, 158, 22, 0.2);
+    border-top: 2px solid rgb(231, 158, 22);
+    color:rgb(231, 158, 22);
+    margin-top: 1em;
+}
+
+#dogButton{
+    border: 2px solid rgb(6, 156, 39);
+    background-color: rgb(189, 214, 195);
+    color: rgb(6, 156, 39);
+}
+
+.Dog footer{
+    background-color: rgb(6, 156, 39, 0.2);
+    border-top: 2px solid rgb(6, 156, 39);
+    color:rgb(6, 156, 39);
+    margin-top: 1em;
+}
+
+h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: .75em;
+    padding-top: .75em;
+}
+
+h1{
+    color: white;
+    font-family: 'Bad Script', 'lobster', sans-serif;
+    font-size: 4em;
+    margin-bottom: .25em;
+    margin-left: 1em;
+}
+
+.petCards {  /* individual card divs */
+    background-color: rgb(253, 243, 231);
+    border: 2px solid darkslategrey;
+    box-shadow: 5px 5px 10px dimgrey;
+    border-radius: 5px;
+    display: inline-block;   
+    height: 380px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.petCards footer p{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: .85em;
+    padding-top: .85em;
+}
+
+.petCards header{
+    background-color: rgb(105, 105, 105, 0.2);
+    border-bottom: 2px solid rgb(105, 105, 105);
+    color:rgb(105, 105, 105);
+}
+
+.petCards img{
+    border-radius: 5px;
+    display: block;
+    height: 200px;
+    margin: .5em auto 1em auto;
+    width: 85%;
 }
