@@ -37,7 +37,7 @@ const critters = [
     },
     {
         image: 'https://live.staticflickr.com/4873/31791976967_16b1b39999_b.jpg',
-        name: 'Janice',
+        name: 'Claudia',
         color: 'Black, White, and Brown',
         specialSkill: 'Poos on command',
         typeOfPet: 'Dog'
@@ -58,7 +58,7 @@ const printPets = (petArr) => {
         petText += `
             <div class="petCards ${pet.typeOfPet}">
             <header><h3>${pet.name}</h3></header>
-            <div><img src="${pet.image}" alt="${pet.name} the ${pet.typeOfPet}" />
+            <div class="cardBody"><img src="${pet.image}" alt="${pet.name} the ${pet.typeOfPet}" />
             <p>Color: ${pet.color}</p>
             <p>Special Skill: ${pet.specialSkill}</p></div>
             <footer><p>${pet.typeOfPet}</p></footer>
