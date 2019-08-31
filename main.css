@@ -36,7 +36,7 @@ body{
     margin-top: .5em;
 }
 
-#catButton{
+#Cat{
     border: 2px solid rgb(22, 130, 231);
     background-color: rgb(199, 212, 224);
     color: rgb(22, 130, 231);
@@ -49,7 +49,7 @@ body{
     margin-top: 1em;
 }
 
-#dinoButton{
+#Dino{
     border: 2px solid rgb(231, 158, 22);
     background-color: rgb(231, 221, 201);
     color: rgb(231, 158, 22);
@@ -62,7 +62,7 @@ body{
     margin-top: 1em;
 }
 
-#dogButton{
+#Dog{
     border: 2px solid rgb(6, 156, 39);
     background-color: rgb(189, 214, 195);
     color: rgb(6, 156, 39);

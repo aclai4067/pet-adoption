@@ -69,3 +69,22 @@ const printPets = (petArr) => {
 };
 
 printPets(critters);
+
+const clickPetBtn = (e) => {
+    const petBtnType = e.target.id;
+    const petTypeArr = [];
+    for (let i = 0; i < critters.length; i++) {
+        const petObject = critters[i];
+        if (petBtnType === petObject.typeOfPet) {
+            petTypeArr.push(petObject)
+        }
+    }
+    printPets(petTypeArr);
+}
+
+document.getElementById(critters[0].typeOfPet).addEventListener('click', clickPetBtn);
+document.getElementById(critters[3].typeOfPet).addEventListener('click', clickPetBtn);
+document.getElementById(critters[5].typeOfPet).addEventListener('click', clickPetBtn);
+document.getElementById('allButton').addEventListener('click', (e) => {
+    printPets(critters);
+}   );
