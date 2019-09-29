@@ -1,22 +1,15 @@
 # pet adoption
 
-## Setup
-* While in `~/workspace/foundations/exercises`, make a directory called `pet-adoption`
-* Create a github repository called `pet-adoption` and push up a README.md file
-* Create a setup branch and push up the usual stuff
+## Description
 
-## Requirements
+Use application to view pets available for adoptions.  Buttons allow the user to filter by pet type or view all. 
 
-- As a user, I want to see a listing of all available pets. Each pet should have a card that has all this data:
-```
-{
-Image: xxx
-Name: xxx
-Color: xxx
-Special Skill: xxx
-Type of Pet: xxx
-}
-```
-- As a user, I want to see 3 category(type) buttons printed at the top of the page. Each should be a different color. These can be hard-coded.
-- I want to be able to click one of the 3 buttons, then only the cards that are in the category(type) should show.
-- There should be some way for the user to unfilter the results (ie All Pets button).
+## ScreenShots
+![pet adoption screenshot](https://raw.githubusercontent.com/aclai4067/pet-adoption/master/screenshots/pet-adoption-main-view.png)
+![pet adoption filtered-dogs](https://raw.githubusercontent.com/aclai4067/pet-adoption/master/screenshots/pet-adoption-filtered.png)
+
+## How to run
+* Clone down this project from [GitHub](https://github.com/aclai4067/pet-adoption)
+* Install [http-server](https://npmjs.com/package/http-server) from npm
+* At the root of this project, run the following command: `hs -p 8080`
+* In your browser, navigate to `https://localhost:8080`
